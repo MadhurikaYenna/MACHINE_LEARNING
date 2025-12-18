@@ -1,0 +1,72 @@
+/* App Background */
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #c56a5a 0%,   /* coral clay */
+        #d39b7c 50%,  /* warm sand */
+        #b75c4a 100%  /* deep coral */
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card Containers */
+.card{
+    background-color: #f1e3d6; /* warm parchment */
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    margin-bottom: 25px;
+    color: #3a2a25; /* high contrast text */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #4a1f1a; /* dark coral-brown */
+}
+
+/* General text */
+p, span, label, div {
+    color: #3a2a25;
+}
+
+/* Metric / Table Containers */
+div[data-testid="metric-container"]{
+    background-color: #e6c7b3; /* muted coral */
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.14);
+    color: #2e1f1b;
+}
+
+/* Prediction / Highlight Box */
+.prediction-box{
+    background: linear-gradient(
+        135deg,
+        #d16b5a, /* coral */
+        #e1a07c  /* warm peach */
+    );
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2b1a16;
+    margin-top: 15px;
+}
+
+/* Tables */
+table {
+    background-color: #f7efe8;
+    color: #2e1f1b;
+}
+
+thead th {
+    background-color: #b55345; /* strong coral header */
+    color: #ffffff;
+}
+
+tbody td {
+    background-color: #edd6c6; /* soft coral row */
+    color: #2e1f1b;
+}
